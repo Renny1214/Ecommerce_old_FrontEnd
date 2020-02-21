@@ -1,0 +1,140 @@
+.background1 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/4/28fa6bec-dbd4-477c-9a1e-60cc635dcafe1570200272914-Lino-Perros_Desk_Banner.jpG");
+    background-repeat: no-repeat;
+  }
+  .background2 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/4/d27ef149-022c-47bf-a2aa-41bd140a72b81570202086547-was.jpG");
+    background-repeat: no-repeat;
+  }
+  .background3 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/4/17e3b8fd-34c6-42fa-a8de-05965f2297ad1570200272965-Crocs_Desk_Banner.jpG");
+    background-repeat: no-repeat;
+  }
+  .background4 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/5/4aa5eead-db51-4382-a732-81538f52e3091570292996996-Mia_Desk_banner.jpg");
+    background-repeat: no-repeat;
+  }
+  .size {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 400px;
+    background-size: 100%;
+  }
+  .undefined {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .images
+  {
+    height :40px;
+    width:40px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .imagesize {
+    height: 400px;
+    width: 300px;
+    margin: 0px 30px 0px 30px;
+  }
+  .border1 {
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+  }
+  .color {
+    color: #f0decb;
+  }
+  .size {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 400px;
+    background-size: 100%;
+  }
+  .undefined {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .images
+  {
+    height :40px;
+    width:40px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .imagesize {
+    height: 400px;
+    width: 300px;
+    margin: 0px 30px 0px 30px;
+  }
+  .pad {
+    padding-left: 40px;
+  }
+  .pad2 {
+    margin-top: 50px;
+  }
+  .des
+  {
+      color :#537d91;
+  }
+  .fonts {
+    font-size: 30px;
+    color: #99d8d0;
+    padding-left: 70px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .side
+  {
+    padding-left: 20px;
+  }
+  .imagesize1 {
+    height: 300px;
+    width: 550px;
+    padding-left: 100px;
+  }
+  .image-image {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+  }
+  .font1 {
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+    color: #420000;
+    padding-top: 350px;
+  }
+  .font2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 80px;
+  }
+  .font11 {
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+    color: #dc5353;
+    padding-bottom: 10px;
+  }
+  .wid {
+    width: 300px;
+  }
+  .cart {
+    color: #dc5353;
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+  }
+  .shift
+  {
+    font-family: 'Raleway', sans-serif;
+    padding-left:60px;
+    padding-top  :20px;
+  }
+  
+  .btn:hover{
+  
+    color :#537d91;
+  }
+  

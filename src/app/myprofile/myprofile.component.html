@@ -1,0 +1,258 @@
+<nav
+  class="navbar navbar-expand-sm container-fluid d-flex shadow-lg shift justify-content-between sticky-top bg-light"
+>
+  <h1 class="font-weight-bold ">
+    <img src="https://image.flaticon.com/icons/svg/1357/1357872.svg" class="images" />LITTLE OAK
+  </h1>
+
+  <div>
+    <button type="button" class="btn" (click)="red()">CHECK OUT PRODUCTS</button>
+    
+  </div>
+
+  <div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a
+          *ngIf="checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/cart"
+          >BAG</a
+        >
+      </li>
+      <li class="nav-item ">
+        <a
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/profile"
+        >
+          PROFILE</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          *ngIf="!checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/signup"
+          >SIGN UP</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          *ngIf="!checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/login"
+          >LOG IN</a
+        >
+        <a
+          *ngIf="checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          (click)="logout()"
+          >LOG OUT</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="font-weight-bold acc">Account</div>
+  <div class="text-muted">{{ email }}</div>
+  <div class="border-bottom pt-3"></div>
+  <div class="row">
+    <div class="col-2 border-right">
+      <div class="border-bottom pb-4"></div>
+      <div
+        class="font-weight-bold spa"
+        (click)="goToCart()"
+        *ngIf="checkLogin()"
+      >
+        MY BAG
+      </div>
+      <div class="border-bottom pb-4"></div>
+      <div
+        class="font-weight-bold spa"
+        (click)="goToHistory()"
+        *ngIf="checkLogin()"
+      >
+        HISTORY
+      </div>
+    </div>
+    <div class="col-10 pt-4 pl-4 ">
+      <div class="container-fluid border pad">
+        <div class="text-muted edit">Edit Profile</div>
+        <div class="border-bottom pt-2 mr-4 ml-4"></div>
+        <div class="row">
+          <div class="col-6">
+            <div class="email">Email *</div>
+            <div class="input1 pt-2">
+              <input
+                type="email"
+                class="form-control rounded-0"
+                id="email"
+                placeholder="{{ email }}"
+                [(ngModel)]="email"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="d-flex justify-content-between">
+              <div class="email">Password *</div>
+              <a
+                class="change"
+                href="#"
+                data-toggle="modal"
+                data-target="#myModal"
+                >Change Password</a
+              >
+            </div>
+            <div class="input1 pt-2">
+              <input
+                type="password"
+                class="form-control rounded-0"
+                id="email"
+                [value]="password"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title text-muted edit">CHANGE PASSWORD</h4>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <div class="change1 text-muted pl-5 pt-4">Old Password *</div>
+                  <input
+                    type="password"
+                    class="inputs  pt-3"
+                    [(ngModel)]="oldpassword"
+                    required
+                  />
+                </div>
+                <div>
+                  <div class="change1 text-muted pl-5 pt-4">New Password *</div>
+                  <input
+                    type="password"
+                    class="inputs  pt-3"
+                    [(ngModel)]="newpassword"
+                    minlength="6"
+                    required
+                  />
+                </div>
+                <div>
+                  <div class="change1 text-muted pl-5 pt-4">
+                    Confirm New Password *
+                  </div>
+                  <input
+                    type="password"
+                    class="inputs  pt-3"
+                    [(ngModel)]="confirmpassword"
+                    minlength="6"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  (click)="changePassword()"
+                >
+                  Save
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-bottom pt-4 mr-4 ml-4"></div>
+        <div class="text-muted edit">General Information</div>
+
+        <div class="form-group email">
+          <label for="name">User Name</label>
+          <input
+            type="text"
+            class="form-control rounded-0"
+            [value]="name"
+            [(ngModel)]="name"
+            required
+          />
+        </div>
+        <div class="form-group next">
+          <label for="pwd">Address</label>
+          <input
+            type="address"
+            class="form-control rounded-0"
+            [value]="address"
+            [(ngModel)]="address"
+            required
+          />
+        </div>
+        <div class="form-group next">
+          <label for="pwd">Phone</label>
+          <input
+            type="text"
+            class="form-control rounded-0"
+            [value]="phone"
+            [(ngModel)]="phone"
+            required
+          />
+        </div>
+        <div class="form-group next">
+          <label for="pwd">Seller?</label>
+          <input
+            type="text"
+            class="form-control rounded-0"
+            placeholder="{{ is_seller }}"
+            [(ngModel)]="is_seller"
+            required
+            disabled
+          />
+        </div>
+
+        <div class="email d-flex justify-content-around">
+          <button class=" btn but font-weight-bold" (click)="editUser()">
+            Save Changes
+          </button>
+
+          <button class=" btn but font-weight-bold" (click)="deactivateUser()">
+            Deactivate User
+          </button>
+        </div>
+
+        <div
+          *ngIf="validate"
+          class="container alert alert-danger alert-dismissible fade show text-center mt-4"
+        >
+          <button type="button" class="close" data-dismiss="alert">
+            &times;
+          </button>
+          <strong>'SUCCESS!! :-) User updated succefully!'</strong>
+        </div>
+
+        <div
+          *ngIf="deactivate"
+          class="container alert alert-danger alert-dismissible fade show text-center mt-4"
+        >
+          <button type="button" class="close" data-dismiss="alert">
+            &times;
+          </button>
+          <strong>'SUCCESS!! :-) User deactivated succefully!'</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

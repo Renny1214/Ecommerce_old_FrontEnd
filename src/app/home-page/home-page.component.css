@@ -1,0 +1,266 @@
+.background1 {
+    background-image: url("https://d31ku6oi94sqfi.cloudfront.net/pub/media/catalog/category/category_banners_-_Root_Clothing.jpg");
+    background-repeat: no-repeat;
+  }
+  .background2 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/7/407f2f14-99de-4b24-b06f-362806dacc5f1570448082148-ww-desktop.jpg");
+    background-repeat: no-repeat;
+  }
+  .background3 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/6/71c908e8-5184-4a7e-8b49-4fbd352be3ad1570381902558-Desktop-Main-Banner.jpG");
+    background-repeat: no-repeat;
+  }
+  .background4 {
+    background-image: url("https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/10/5/4aa5eead-db51-4382-a732-81538f52e3091570292996996-Mia_Desk_banner.jpg");
+    background-repeat: no-repeat;
+  }
+  .size67 {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 400px;
+    background-size: 100%;
+  }
+  .col{
+    background-color:#dedede;
+  }
+  
+  .size {
+    height: 280px;
+    width: 200px;
+  }
+  .spans:hover {
+    background-color: #e4f2f0;
+    color: #41aaa8;
+    cursor: pointer;
+  }
+  .spans {
+    display: inline-block;
+    height: 48px;
+    padding-top: 12px;
+  }
+  .textxx {
+    font-size: 20px;
+  }
+  .line {
+    border-bottom: 5px solid #41aaa8;
+  }
+  .size1 {
+    height: 510px;
+    width: 320px;
+  }
+  .name {
+    color: black;
+    border-bottom: 2px solid #41aaa8;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .btn5
+  {
+    color: #41aaa8;
+    background-color: #eeeeee;
+  }
+  .btn5:hover{
+    color: #f34573;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  .btn3 {
+    margin-left: 76px;
+    background-color: #e4f2f0;
+    color: #41aaa8;
+  }
+  .btn7
+  {
+    margin-left: 5px;
+    background-color: #e4f2f0;
+    color: #41aaa8; 
+  }
+  .back {
+    background-color: black;
+    height: 80px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .icon {
+    color: white;
+    font-size: 2.5rem !important;
+  }
+  .nav2 {
+    background-color: #f34573;
+  }
+  .side {
+    padding-left: 20px;
+  }
+  .shift {
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  .search {
+    width:500px; 
+  }
+  
+  .dess {
+    height: 70px;
+  }
+  
+  
+  .icon1 {
+    background-color: white;
+    padding: 6px;
+  }
+  .nav3 {
+    display: flex;
+    background-color: #ffdcf7;
+    justify-content: space-around;
+    margin-top: 2px;
+  }
+  .text:hover {
+    color: black !important;
+  }
+  
+  .text {
+    color: #f34573;
+  }
+  .design
+  {
+    color:#f34573;
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+  }
+  .design1
+  {
+    padding-left: 7px;
+    color :black;
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+  }
+  .abc {
+    height: 30px;
+    width: 30px;
+  }
+  .z {
+    color: white;
+  }
+  .images {
+    height: 90px;
+    width: 70px;
+    margin: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    color: #537d91;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:  16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .fontss {
+    font-family: "Raleway", sans-serif;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .sizes {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .navy:hover {
+    color: #537d91;
+  }
+  .card:hover{
+    box-shadow: 0 0 11px rgba(10, 9, 9, 0.2); 
+  }
+  .card{
+     transition: box-shadow .3s;
+  }
+  .btn3:hover
+  {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    color: #ce2e6c;
+  }
+  .btn7:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    color: #ce2e6c;
+  }
+  .hover2:hover{
+    cursor: pointer;
+    color: #ce2e6c;
+  }
+  .navy:hover{
+    cursor: pointer;
+    color: #ce2e6c;
+  }
+  .modalhead
+  {
+    color:#ce2e6c;
+    text-align: center;
+    font-size :24px;
+  }
+  .pro{
+      font-family: inherit;
+  }
+  .addbtn
+  {
+    color:white;
+    background-color: #ce2e6c;
+  }
+  .qwe
+  {
+    font-size: 20px;
+    font-family: inherit;
+  }
+  .error
+  {
+    font-size: 22px;
+    font-family: inherit;
+    padding-top:30px;
+    padding-left : 296px;
+  }
+  

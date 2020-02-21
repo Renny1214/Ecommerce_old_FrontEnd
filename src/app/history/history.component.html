@@ -1,0 +1,78 @@
+<nav
+  class="navbar navbar-expand-sm container-fluid d-flex shadow-lg shift justify-content-between sticky-top bg-light"
+>
+  <h1 class="font-weight-bold ">
+    <img src="https://image.flaticon.com/icons/svg/1357/1357872.svg" class="images" />LITTLE OAK
+  </h1>
+
+  <div>
+    <button type="button" class="btn" (click)="red()">CLOTHING</button>
+    <button type="button" class="btn" (click)="red()">FOOTWEAR</button>
+    <button type="button" class="btn" (click)="red()">ACCESORIES</button>
+    <button type="button" class="btn" (click)="red()">BAGS</button>
+  </div>
+
+  <div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a
+          *ngIf="checkLogin() && this.is_seller == false"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/cart"
+          >BAG</a
+        >
+      </li>
+      <li class="nav-item ">
+        <a
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/profile"
+        >
+          PROFILE</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          *ngIf="!checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/signup"
+          >SIGN UP</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          *ngIf="!checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          href="/login"
+          >LOG IN</a
+        >
+        <a
+          *ngIf="checkLogin()"
+          class="nav-link text-dark font-weight-bold hover2 navy"
+          (click)="logout()"
+          >LOG OUT</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container border mt-5">
+    <div  *ngFor="let i of array;" class="p-3 border-bottom">
+
+      <div class="row">
+        <div class="col-3">
+            <img class="abc imgsize"  [src]="i.products.image"/>
+        </div>
+        <div class="col-9 pt-3 pl-2">
+            <a  href="/products/id/{{i.products.productId}}" class="text-info size text-capitalize">{{i.products.name}}</a>
+            <div class="text-muted size1 text-capitalize">{{i.date|date:'medium'}}</div>
+            <div class="text-muted size1 text-capitalize">Product Price : {{i.products.price}}</div>
+            <div class="text-muted size1 text-capitalize">Quantity : {{i.quantity}}</div>
+            <div class="text-muted size1 text-capitalize">Total Price : {{i.quantity*i.products.price}}</div>
+        </div>
+      </div>
+    </div>
+</div>
+

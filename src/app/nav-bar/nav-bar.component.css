@@ -1,0 +1,58 @@
+.back
+{
+    background-color: black;
+     height : 80px;
+}
+.logo
+{
+    font-size : 24px;
+}
+.icon
+{
+    color : white;
+    font-size: 2.5rem !important;
+}
+.nav2
+{
+    background-color : #f34573;
+}
+.btn1
+{
+    background-color: black;
+}
+.search
+{
+    width: 400px;
+}
+.icon1
+{
+    background-color: white;
+    padding : 6px;
+}
+.nav3
+{
+    display: flex;
+    background-color: #ffdcf7; 
+    justify-content: space-around;
+    margin-top : 2px;
+    
+}
+.text:hover
+{
+    color: black !important;
+}
+.hover2:hover{
+    color: #f34573!important;
+}
+.text{
+    color : #f34573;
+}
+.abc
+{
+height : 30px;
+width :30px;
+}
+.z
+{
+    color:white;
+}

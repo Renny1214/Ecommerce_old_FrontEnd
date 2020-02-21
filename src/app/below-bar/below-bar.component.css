@@ -1,0 +1,49 @@
+
+
+.des
+{
+    background-color:  #eae9e9;
+    height : 300px;
+    margin-top :80px;
+}
+.font
+{
+    
+    padding-top : 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size : 20px;
+}
+.front
+{
+    padding-left: 20px;
+}
+.size
+{
+    margin :6px;
+    height : 30px;
+    width:40px;
+}
+.pad
+{
+    padding-left : 200px;
+}
+.desktop-promises {
+    width: 250px;
+    float: left;
+}
+.desktop-section {
+    margin: 15px 0px 30px 0px;
+    color: 
+    #696B79;
+}
+.desktop-original {
+    display: inline-block;
+
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.sprites-original {
+    background-position: -421.5px 0px;
+    width: 47.5px;
+    height: 40px;
+}

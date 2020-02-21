@@ -1,0 +1,67 @@
+*{
+    overflow: hidden;
+}
+
+.images {
+    height: 60px;
+    width: 50px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .shift {
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  .sign
+  {
+    font-family: "Raleway", sans-serif;
+    color: #537d91;
+    font-size : 32px;
+  }
+  
+  .btn:hover {
+    color: #537d91;
+  }
+  
+.heading
+{
+    font-size:36px;
+}
+.wid
+{
+    width:0px;
+}
+
+.abc
+{
+    padding-left :210px;
+    padding-top : 150px;
+}
+.imgsize
+{
+    padding-top :100px;
+    height: 550px;
+    width : 550px;
+    margin-left : 0px;
+    margin-top : 0px;
+}
+.as1{
+padding-top : 50px;
+padding-bottom: 100px;
+}
+.btn4 {
+    height: 40px;
+    width : 500px;
+    background-color: #e4f2f0;
+    color: #ce2e6c;
+    margin-left : 30px;
+  }
+  .btn4:hover {
+    color: #373a6d;
+  
+  }
+  .tesx
+  {
+      color: #ce2e6c;
+  }

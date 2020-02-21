@@ -1,0 +1,108 @@
+.images {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .shift {
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  
+  .btn:hover {
+    color: #537d91;
+  }
+  .tes
+  {
+    margin-top : 20px;
+  }
+  .btn3 {
+    height: 45px;
+    width : 200px;
+    background-color: #e4f2f0;
+    color: #ce2e6c;
+    margin-left : 70px;
+  }
+  .btn3:hover {
+    color: #373a6d;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn4 {
+    height: 45px;
+    width : 300px;
+    background-color: #e4f2f0;
+    color: #ce2e6c;
+    margin-left : 70px;
+  }
+  .btn4:hover {
+    color: #373a6d;
+    box-shadow: 16px 8px 16px 8px rgba(0, 0, 0, 0.2);
+  }
+  .details
+  {
+    font-size : 24px;
+    font-family: "Raleway", sans-serif;
+  }
+  .texts
+  {
+    font-size : 22px;
+    font-family: "Raleway", sans-serif;
+  }
+  .navy:hover {
+    color: #537d91;
+  }
+  .bag
+  {
+    padding-top : 0px;
+    margin-right: 10px;
+    height :20px;
+    width : 20px;
+  }
+  .abc
+  {
+    height: 700px;
+    width : 600px;
+  }
+  .brand
+  {
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .etc
+  {
+    padding-left: 60px;
+  }
+  .name
+  {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+  }
+  .price
+  {
+    font-size: 29px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 40px;
+  }
+  .addbtn
+  {
+    color:white;
+    background-color: grey;
+  }
+  .addbtn:hover{
+    color:#ce2e6c;
+  }
+  .head
+  {
+    color:black;
+    text-decoration:none;
+  }
+  .madalhead
+  {
+    color:#ce2e6c;
+  }

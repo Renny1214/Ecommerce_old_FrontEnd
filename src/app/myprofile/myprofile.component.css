@@ -1,0 +1,111 @@
+
+.images {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .shift {
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  
+  .btn:hover {
+    color: #537d91;
+  }
+  .acc
+  {
+      padding-top : 60px;
+      font-size: 20px;
+  }
+  
+  .spa
+  {
+      margin-top: 20px;
+      color:grey;
+  }
+  .edit
+  {
+      font-size: 24px;
+      padding-top : 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .email
+  {
+      padding-left: 40px;
+      padding-top:30px;
+      padding-right: 40px;
+  }
+  .change
+  {
+      color:red;
+      font-size:15px;
+      padding-top: 30px;
+      padding-right: 40px;
+
+  }
+  .input1
+  {
+      padding-left: 40px;
+      padding-right: 40px;
+     
+  }
+  .wid
+  {
+    width : 350px;
+  }
+  .next
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ .pad
+ {
+     padding-bottom: 40px;
+ }
+ .but
+ {
+     background-color: #41aaa8;
+     color : white;
+     cursor: pointer;
+ }
+ .btn:hover{
+     color : #ce2e6c;
+ }
+ .modal-dialog {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+.change1
+{
+    font-size:14px;
+}
+.inputs{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.addbtn
+{
+  color:white;
+  background-color: #ce2e6c;
+}
+.modalhead
+{
+  color:#ce2e6c;
+  text-align: center;
+  font-size :24px;
+}
+.pro{
+    font-family: inherit;
+}
+.spa:hover{
+    color:#ce2e6c;
+    cursor: pointer;
+}

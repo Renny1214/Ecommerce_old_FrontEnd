@@ -1,0 +1,112 @@
+
+.images {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+  .shift {
+    font-family: "Raleway", sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  .center
+  {
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;
+  }
+  .name
+  {
+    
+        font-size: 18px;
+        padding-left: 20px;
+        padding-top : 20px;
+  }
+  .price
+  {
+    padding-right: 20px;
+    padding-top : 20px;
+  }
+  .brand
+  {
+      padding-left: 20px;
+        font-size: 16px;
+  }
+  .img1
+  {
+      height: 40px;
+      width : 40px;
+    
+  }
+  .per
+  {
+      margin-right: 100px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+  }
+  .alerts
+  {
+      height: 50px;
+  }
+  .abc
+  {
+      height: 210px;
+      width : 210px; 
+  }
+  .yay
+  {
+      padding-top: 100px;
+  }
+  .yayy
+  {
+      padding-top: 200px;
+      padding-left : 40px;
+  }
+  .yayy2
+  {
+    padding-left : 20px;
+  }
+  .yayy1
+  {
+    padding-left : 20px;
+    padding-top: 40px;
+  }
+  .mybag
+  {
+      font-size : 20px;
+      padding-top:10px;
+  }
+  .btn4 {
+    height: 40px;
+    width : 550px;
+    background-color: #e4f2f0;
+    color: #ce2e6c;
+    
+  }
+  .btn4:hover {
+    color: #373a6d;
+  
+  }
+  .btn8 {
+    height: 40px;
+    width : 350px;
+    background-color: #ce2e6c;
+    color: white;
+    
+  }
+  .btn8:hover {
+    color: hsl(337, 47%, 78%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  .imgsrc
+  {
+    height: 170px;
+    width:170px;
+    margin-top:150px;
+  }
+  .error
+  {
+      font-style: inherit;
+      font-size: 22px;
+  }
+  
